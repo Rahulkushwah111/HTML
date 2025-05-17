@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Feedback form</title>
+    </head>
+    <h1>Feedback Form </h1>
+    
+    
+    <body> <br>
+        <div>Please fill out this form to help us improve our site</div>
+        <br>
+        
+        <div class = "nav-search"><strong>Name:</strong> <input type="Name" name="k" class="search-input" placeholder="    ">
+            <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+       
+        </div></div>
+        <br>
+        
+        <div><strong>Comments:</strong></div>
+        <textarea> </textarea>
+        <br>
+        <br></body><br>
+
+        <div class = "nav-search"><strong>E-mail Address:</strong> <input type="Name" name="k" class="search-input" placeholder="    ">
+            <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div></div>
+        
+        <br>
+        <div><strong>Things you linked:</strong></div>
+    
+        <div>
+                
+            
+            <label for="site_design">Site design</label>
+            <input type="checkbox" id="site_design" name="liked[]" value="Site design">
+            <label for="site_design">links</label>
+            <input type="checkbox" id="links" name="liked[]" value="links">
+            <label for="site_design">Ease of use</label>
+            <input type="checkbox" id="Ease of use" name="liked[]" value="Ease of use">
+            <label for="site_design">Images</label>
+            <input type="checkbox" id="Images" name="liked[]" value="Images">
+            <label for="site_design">Source code</label>
+            <input type="checkbox" id="Source code" name="liked[]" value="Source code">
+        </div><br>
+        <div><strong>How did you get to our site?:</strong></div>
+
+    
+    <div>
+        <label for="links">search engine</label>
+                 <input type="radio" id="search engine " name=" liked" value="search engine">
+                 <table1 for ="Ease of use">Link form another site </table1>
+                 <input type="radio" id=" username" name=" Link form another site" value="Link form another site">
+                 <table1 for ="Ease of use">Reference in a book</table1>
+                 <input type="radio" id=" username" name=" Reference in a book" value="Reference in a book">
+                 <table1 for ="Ease of use">other</table1>
+                 <input type="radio" id=" username" name=" other" value="other">
+    </div>
+
+    <br>
+    <div><strong>Rate our site:</strong>
+       
+    <select id="rating" name="rating" required>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    </div>
+    <br>
+    <div class="button-group">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+      </div>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
